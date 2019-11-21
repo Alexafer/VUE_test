@@ -1,0 +1,136 @@
+﻿body{
+    display:row;
+}
+
+.wraper {
+ display: flex;
+ background-color: #EEEBE5;
+
+}
+
+.left_menu{
+  /*  float:left;*/
+   width: 270px;
+   height: 1117px;
+   align-self:strech;
+   background-color: #000;
+
+}
+.left_menu H3{
+position:absolute;
+top:12px;
+left:73px;
+color:#fff;
+font-size:24px;
+}
+H3:before{
+    content: "";
+     background-image: url(img/Logo@3x.svg);
+     /*background-size: 31px 28px; */
+     width: 21px;
+     height: 19px;
+     background-repeat: no-repeat;
+     position: absolute;
+     top:3px;
+     left:-38px;
+    }
+H3:after{
+    content: "";
+     background-image: url(img/Search@3x.svg);
+     background-size: 16px 16px;
+     width: 16px;
+     height: 16px;
+     background-repeat: no-repeat;
+     position: absolute;
+     left:172px;
+     top:5px;
+    }
+
+
+.top{
+/*float: left; */
+   width:calc(100% - 270px);
+   height:136px;
+   /*margin-left:270px; */
+   background-color: #876078;
+}
+.content{
+    position:relative;
+    top: -745px;
+    left: 470px;
+
+    /*margin-left:-200px;*/
+    /*display: flex;*/
+    width:60%;
+    height:500px;
+    background-color: red;
+}
+.bloks{
+    width:270px;
+    height:80px;
+    background-color: #202020;
+
+}
+.bloks_black{
+    width:270px;
+    height:84px;
+    background-color: #000;
+
+}
+
+.name{
+    position: absolute;
+    top:90px;
+    left:90px;
+    color:#fff;
+    font-size: 20px;
+}
+/*.circle {
+    position:relative;
+    top: 16px;
+    left:30px;
+   border-radius: 50%;
+   width:48px;
+   height:48px;
+}*/
+.name:before{
+    content: "";
+     background-image: url(img/22.jpg);
+     background-size: 48px 48px;
+     background-repeat: no-repeat;position:absolute;
+    top: -3px;
+    left:-60px;
+   border-radius: 50%;
+   width:48px;
+   height:48px;
+}
+.name:after{
+    content: "";
+     background-image: url(img/100.png);
+     background-size: 24px 14px;
+     background-repeat: no-repeat;position:absolute;
+    top: 15px;
+    left:145px;
+   border-radius: 50%;
+   width:24px;
+   height:14px;
+}
+.ident{
+    position: absolute;
+    top: 120px;
+    left:90px;
+    color: #ccc;
+}
+.compl_tasks{
+    position: absolute;
+    top:184px;
+    left:40px;
+    color: #fff;
+
+}
+.op_tasks {
+    position: absolute;
+    top:184px;
+    left:154px;
+    color: #fff;
+}
